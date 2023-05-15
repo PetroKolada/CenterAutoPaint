@@ -1,0 +1,156 @@
+@media (max-width: 960px) {
+    .info__location {
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .hero_container {
+        padding-top: 8vh;
+    }
+
+    .header_switchlist {
+        display: none;
+    }
+
+    .header_info {
+        display: none;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .submit__formlist {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .burger_menu {
+        display: block;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero__title {
+        font-size: 25px;
+    }
+
+    .hero__subtitle {
+        font-size: 14px;
+    }
+
+    .hero_container {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 5vh;
+    }
+
+    .button_holder {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .hero_about {
+        padding-top: 5vh;
+    }
+
+    .about_list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .about__item {
+        border: 4px white solid;
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .details__title {
+        font-size: 15px;
+    }
+
+    .benefits__title {
+        font-size: 15px;
+    }
+
+    .benefits__subtitle {
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
+
+    .benefits_list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .benefits__item {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .services__list {
+        padding-top: 45px;
+        display: grid;
+        grid-template-columns: 45vw 45vw;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+
+    .reviews {
+        min-height: 305px;
+    }
+
+    .reviews__comments:nth-child(2) {
+        display: none;
+    }
+
+    .details__items-text {
+        font-size: 15px;
+    }
+
+    .details__items:nth-child(1)::after {
+        transform: translate(-10%, -50%);
+    }
+
+    .details__items:nth-child(2)::after {
+        transform: translate(-10%, -50%);
+    }
+
+    .details__items:nth-child(3)::after {
+        transform: translate(-10%, -50%);
+    }
+
+    .details__items:nth-child(4)::after {
+        transform: translate(-10%, -50%);
+    }
+
+    .examples__list {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .examples_item {
+        height: 45vw;
+    }
+
+    .footer__section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
