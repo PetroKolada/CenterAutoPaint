@@ -153,4 +153,11 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .img_deletabble {
+        display: none !important;
+    }
+
+    .reviews_img {
+        width: 305px;}
 }

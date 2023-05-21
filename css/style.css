@@ -302,6 +302,16 @@ a {
     gap: 25px;
 }
 
+.reviews_img{
+    width: 455px;
+    height: 136px;
+}
+
+.reviews_img img {
+    width: 100%;
+    height: auto;
+}
+
 .reviews__comments>img {}
 
 .examples {
